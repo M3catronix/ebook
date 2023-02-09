@@ -2,14 +2,14 @@
 
 /*
 |--------------------------------------------------------------------------
-| Easy!Appointments - Internal Configuration
+| Internal Configuration
 |--------------------------------------------------------------------------
 |
-| Declare some of the global config values of Easy!Appointments.
+| Declare some of the global config values.
 |
 */
-$config['version'] = '1.4.3'; // This must be changed manually.
-$config['release_label'] = ''; // Leave empty for no title or add Alpha, Beta etc ...
+$config['version'] = '1.5.0'; // This must be changed manually.
+$config['release_label'] = 'Beta'; // Leave empty for no title or add Alpha, Beta etc ...
 $config['debug'] = Config::DEBUG_MODE;
 
 /*
@@ -195,7 +195,7 @@ $config['enable_hooks'] = TRUE;
 | http://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'EA_';
+$config['subclass_prefix'] = 'EB_';
 
 
 /*
@@ -314,7 +314,7 @@ $config['cache_path'] = __DIR__ . '/../../storage/cache/';
 | new release.
 |
 */
-$config['cache_busting_token'] = '6398SW';
+$config['cache_busting_token'] = '6498SW';
 
 /*
 |--------------------------------------------------------------------------
